@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import threedSpheres from "../../../public/media/lotties/3dSpheres(Home).json";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub,FiInstagram } from "react-icons/fi";
+import Contributions from "../../osc";
 gsap.registerPlugin(CSSPlugin)
 
 
@@ -155,6 +156,10 @@ const Home = () => {
         <div id="projects" className="pt-32 mt-56 border-0 border-red-500">
           <Projects />
         </div>
+        <div id="contributions" className="pt-32 mt-20 border-0 border-red-500">
+          <Contributions />
+        </div>
+        
         <div id="contact" className="pt-32 border-0 border-red-500">
           <Contact />
         </div>
